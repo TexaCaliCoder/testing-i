@@ -1,37 +1,47 @@
 const items = {
     weapon: {
         sword: {
-            name: 'Long Sword',
+            itemName: 'Long Sword',
+            name:'',
             durability: 100,
-            enhancementLevel: 9,
+            enhancementLevel: 15,
             damage: 65,
-            range: 3
+            range: 3,
+            type: 'W'
         },
         dagger: {
-            name: 'stiletto',
+            itemName: 'Stiletto',
+            name:'',
             durability: 40,
             enhancementLevel: 0,
             damage: 20,
-            range: 1
+            range: 1,
+            type: 'W'
         },
         bow: {
-            name: 'Peasant Bow',
+            itemName: 'Peasant Bow',
+            name: '',
             durability: 45,
             enhancementLevel: 'TET',
             damage: 30,
-            range: 6
+            range: 6,
+            type: 'W'
         }
     },
     armor: {
         leatherShield: {
-            name: 'Leather Shield',
+            itemName: 'Leather Shield',
+            name:'',
             durability: 100,
             enhancementLevel:'PRI',
+            type: 'A'
         },
         gauntletOfPower:{
-            name: 'Gauntlets Of Power',
+            itemName: 'Gauntlets Of Power',
+            name:'',
             durability:100,
-            enhancementLevel:'PEN'
+            enhancementLevel:'PEN',
+            type: 'A'
 
         }
     }
